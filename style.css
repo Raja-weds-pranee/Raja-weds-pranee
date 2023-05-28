@@ -386,6 +386,7 @@ img {
 	font-size: 60px;
 	margin: 32px 0;
 	color: #674ea7;
+	padding: 10px;
 }
 
 .title h2 {
@@ -493,12 +494,13 @@ body {
 	grid-template-columns: 1fr 1fr;
 	border-radius: 10px;
 	overflow: hidden;
+	align-items: flex-end;
 }
 
 .block {
-	width: 180px;
-	height: 160px;
-	display: flex;
+	width: 200px;
+	height: 180px;
+	display: inline-flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -578,4 +580,11 @@ a {
 	font-size: 12px;
 	letter-spacing: 0pt;
     padding-bottom: 10px;
+}
+
+.video{
+	height: auto;
+	width:auto;
+	padding-top: 5%;
+	align-items: center;
 }
