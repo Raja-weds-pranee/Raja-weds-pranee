@@ -582,9 +582,28 @@ a {
     padding-bottom: 10px;
 }
 
-.video{
-	height: auto;
-	width:auto;
-	padding-top: 5%;
-	align-items: center;
+.v-container {
+	background-color: #fff;
+	font-style: italic;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin: 50px auto;
+	max-width: 800px;
+	text-align: center;
+	
 }
+video {
+	width: 100%;
+	height: auto;
+  }
+@media (max-width: 800px) {
+	.v-container {
+	  flex: 100%;
+	  max-width: 100%;
+	}
+	.container{
+		flex:100%;
+		max-width: 100%;
+	}
+  }
